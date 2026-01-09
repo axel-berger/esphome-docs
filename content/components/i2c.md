@@ -59,7 +59,7 @@ i2c:
 - **id** (*Optional*, [ID](/guides/configuration-types#id)): Manually specify the ID for this I²C bus if you need multiple I²C buses.
 
 > [!NOTE]
-> If the device can support multiple I²C buses these buses need to be defined as below and sensors need to be setup specifying the correct bus:
+> If the device can support multiple I²C buses -- the 8266 can't! -- these buses need to be defined as below and sensors need to be setup specifying the correct bus:
 >
 > ```yaml
 > # Example configuration entry
